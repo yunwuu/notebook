@@ -1,0 +1,48 @@
+{
+    "items": [
+        {
+            "dir": "01. 线性表/02.一元多项式",
+            "files": {
+                "一元多项式.md": {
+                    "type": 0,
+                    "text": "",
+                    "priority": 2,
+                    "done": false
+                }
+            }
+        },
+        {
+            "dir": "02. 栈和队列",
+            "files": {
+                "队列.c": {
+                    "type": -1,
+                    "text": "",
+                    "priority": 4,
+                    "done": false
+                }
+            }
+        },
+        {
+            "dir": "03. 字符串",
+            "files": {
+                "模式匹配算法.md": {
+                    "type": 0,
+                    "text": "KMP算法和前缀函数的补充",
+                    "priority": 3,
+                    "done": false
+                }
+            }
+        },
+        {
+            "dir": "04. 数组",
+            "files": {
+                "数组.md": {
+                    "type": 1,
+                    "text": "",
+                    "priority": 3,
+                    "done": false
+                }
+            }
+        }
+    ]
+}
