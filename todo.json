@@ -14,11 +14,11 @@
         {
             "dir": "02. 栈和队列",
             "files": {
-                "队列.c": {
+                "链队列.c": {
                     "type": -1,
                     "text": "",
                     "priority": 4,
-                    "done": false
+                    "done": true
                 }
             }
         },
