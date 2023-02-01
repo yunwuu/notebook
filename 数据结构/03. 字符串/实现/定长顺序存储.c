@@ -58,18 +58,18 @@ BOOL Concat(SqString t, SqString s1, SqString s2) {
 }
 
 
-void Substring(SqString *sub, SqString s, int pos, int len) {
+void Substring(SqString sub, SqString s, int pos, int len) {
     // 求子串
     // 用sub返回串s第pos个字符起长度为len的子串
     if(pos < 1 || pos > s[0] || len < 0 || len > s[0] - pos + 1) exit(ERROR);
     int index = 1;
     int posIndex = pos;
     while(index <= len) {
-        *sub[index] = s[posIndex];
+        sub[index] = s[posIndex];
         index++;
         posIndex++;
     }
-    *sub[0] = len;
+    sub[0] = len;
 }
 
 
@@ -85,6 +85,14 @@ int main() {
     int i = 1;
     while(i <= res[0]) {
         printf("%c", res[i++]);
+    }
+    printf("\n");
+    
+    SqString sub;
+    Substring(sub, hi, 2, 2);
+    i = 1;
+    while(i <= sub[0]) {
+        printf("%c", sub[i++]);
     }
     printf("\n");
     return 0;
