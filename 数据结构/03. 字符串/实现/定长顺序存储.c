@@ -8,7 +8,6 @@
 
 #include <stdlib.h>
 #include <stdio.h>
-#include <string.h>
 
 
 typedef unsigned char SqString[MAX_STRING_LEN + 1]; // 首单元存储字符串长度信息
