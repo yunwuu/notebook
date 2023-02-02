@@ -35,6 +35,15 @@ void writeString(SqString s) {
 }
 
 
+void writeChar(char *chars) {
+    char *c = chars;
+    while(*c != '\0') {
+        printf("%c", *c);
+        c++;
+    }
+}
+
+
 int main() {
     nn n;
     changeNode(&n);
@@ -47,4 +56,6 @@ int main() {
         i++;
     }
     printf("\n");
+    char c[6] = {'h', 'e', 'l', 'l', 'o', '\0'};
+    writeChar(c);
 }
