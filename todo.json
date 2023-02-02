@@ -46,7 +46,7 @@
                     "type": 1,
                     "text": "",
                     "priority": 3,
-                    "done": false
+                    "done": true
                 }
             }
         }
