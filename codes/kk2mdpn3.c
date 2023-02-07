@@ -1,17 +1,5 @@
 #include <stdio.h>
-
-
-int cmp(char *s1, char *s2) {
-    int i;
-    for(i=0; s1[i] != '\0', s2[i] != '\0'; i++) {
-        if((int)s1[i] > (int)s2[i]) return 1;
-        if((int)s1[i] < (int)s2[i]) return -1;
-    }
-    if(s1[i] != '\0') return 1;
-    if(s2[i] != '\0') return -1;
-    return 0;
-}
-
+#include <string.h>
 
 int main() {
     char s[4][100];
@@ -21,12 +9,16 @@ int main() {
     }
     char tmp[80];
     for(int i=0; i<4; i++) {
-        for(int j=0; j<3-i; j++) {
-            char s1[] = s[j];
-            char s2[] = s[j+1];
-            if(cmp(s1, s2) == 1) {
-                
-            }
+        int index = 0;
+        for(int j=i+1; j<5; j++) {
+            if(strcmp(s[j], s[index]) == -1) index = j;
         }
+        strcpy(tmp, s[i]);
+        strcpy(s[i], s[index]);
+        strcpy(s[index], tmp);
     }
+    for(int i=0; i<5; i++) {
+        printf("%s\n", s[i]);
+    }
+    return 0;
 }

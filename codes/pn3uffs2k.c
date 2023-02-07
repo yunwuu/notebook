@@ -2,35 +2,33 @@
 
 
 #include <stdio.h>
+#include <string.h>
 
 
-void strmcpy(char *s, char *t, int m) {
-    char *tm = t + m - 1;
-    char *sm = s;
-    int j = 0;
-    for(int i=0; tm[i] != '\0'; i++) {
-        sm[j++] = tm[i];
+void strmcpy(char *s, char *t, int m){
+    t = t + m - 1;
+    while(*t != '\0') {
+        *s = *t;
+        s++;
+        t++;
     }
-    sm[j] = '\0';
-    for(int k=0; k<j; k++) {
-        printf("%c", s[k]);
-    }
+    *s = '\0';
 }
 
 
 int main() {
-    int m, n;
+    char s[100], t[100];
+    int m;
     printf("Input m:");
     scanf("%d", &m);
-    printf("Input length of chars:");
-    scanf("%d", &n);
-    char t[100];
-    printf("n=%d", n);
-    for(int i=0; i<n; i++) {
-        printf("!");
-        scanf("%c", t[i]);
+    printf("Input string:");
+    scanf("%s", t);
+    getchar();
+    if(strlen(t) < m) {
+        printf("Invalid!");
+        return -1;
     }
-    t[n] = '\0';
-    char s[100];
     strmcpy(s, t, m);
+    printf("%s", s);
+    return 0;
 }
