@@ -2,6 +2,9 @@
 
 考研党的一些笔记。
 
+# Have been moved to [https://github.com/cocogoat-notebook](https://github.com/cocogoat-notebook)
+
+
 ## 目录
 
 ### [C语言](/C语言/)
