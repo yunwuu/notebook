@@ -2,7 +2,7 @@
 
 考研党的一些笔记。
 
-# Have been moved to [https://github.com/cocogoat-notebook](https://github.com/cocogoat-notebook)
+# Have been moved to https://n.yunwuu.cn
 
 
 ## 目录
