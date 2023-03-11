@@ -3,11 +3,11 @@ import { zhNavbar } from "./navbar/index.js";
 import { zhSidebar } from "./sidebar/index.js";
 
 export default hopeTheme({
-  hostname: "https://n.yunwuu.cn",
+  hostname: "https://408.yunwuu.cn",
 
   author: {
     name: "Yunwu",
-    url: "https://n.yunwuu.cn",
+    url: "https://408.yunwuu.cn",
   },
 
   iconAssets: "iconfont",
