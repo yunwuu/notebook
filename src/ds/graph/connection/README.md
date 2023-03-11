@@ -27,7 +27,7 @@ void DFSForest(Graph *g, CSTree *t) {
 
 
 void DFSTree(Graph *g, int v, CSTree *t) {
-    // 从第v个顶点出发，深度优先遍历图G 建立生成树
+    // 从第v个顶点出发，深度优先遍历图G 建立以T为根的生成树
     visited[v] = true;
     first = true;
     for(int w=FirstAdjVertex(g, v); w>=0; w=NextAdjVertex(g, v, w)) {
@@ -48,3 +48,12 @@ void DFSTree(Graph *g, int v, CSTree *t) {
     }
 }
 ```
+
+
+## 有向图的强连通分量
+::: info 等待完善
+
+:::
+
+## 最小生成树
+参见 [最小生成树](/ds/graph/connection/mst/)
