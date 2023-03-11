@@ -84,7 +84,7 @@ Status ListDelete(LinkList &L, int i, ElemType &e) {
 ```
 
 ### C语言实现
-[Gist](https://gist.github.com/yunwu528491/f0b96819d99553c481741fe53887072c)
+[Gist](https://gist.github.com/yunwuu/f0b96819d99553c481741fe53887072c)
 
 ## 双向链表
 1. 在单链表中，每个结点只能找到直接后继的结点，而无法找到直接前驱的结点。单链表寻找下一个结点的时间复杂度为 $O(1)$ ， 而寻找上一个结点的时间复杂度为 $O(n)$ 。

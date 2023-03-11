@@ -92,4 +92,4 @@ void conversation() {
 
 
 ## C语言实现
-[Gist](https://gist.github.com/yunwu528491/1c37f910b3d270d8d8397dffbe087de0)
+[Gist](https://gist.github.com/yunwuu/1c37f910b3d270d8d8397dffbe087de0)

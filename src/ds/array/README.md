@@ -40,4 +40,4 @@ typedef struct {
 ```
 
 ## C语言实现
-[Gist](https://gist.github.com/yunwu528491/0bf894bf9f73961fd847aaed7766c2ef)
+[Gist](https://gist.github.com/yunwuu/0bf894bf9f73961fd847aaed7766c2ef)

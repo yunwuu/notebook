@@ -14,7 +14,7 @@ typedef unsigned char SString[MAX_STRLEN + 1]; // SString[0] 存放字符串的�
 
 在C语言中，也可以直接使用`\0`来表示字符串的结束，但无法直接得到字符串的长度，在一些操作中可能有所不便。
 
-C语言实现：[Gist](https://gist.github.com/yunwu528491/3b122f08b01fb58e06a537a20bc3f1f5)
+C语言实现：[Gist](https://gist.github.com/yunwuu/3b122f08b01fb58e06a537a20bc3f1f5)
 
 ### 堆分配存储表示
 ```c
@@ -24,7 +24,7 @@ typedef struct {
 }HString;
 ```
 
-C语言实现： [Gist](https://gist.github.com/yunwu528491/e77ac2600fa36dc4e0275e387ba04fa0)
+C语言实现： [Gist](https://gist.github.com/yunwuu/e77ac2600fa36dc4e0275e387ba04fa0)
 
 
 ### 块链存储表示

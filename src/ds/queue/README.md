@@ -56,7 +56,7 @@ Status Enqueue(LinkQueue &q, ElemType e) {
 ```
 
 ### C语言实现
-[Gist](https://gist.github.com/yunwu528491/35f1fcbecdcabcbc372a87693ec9b79a)
+[Gist](https://gist.github.com/yunwuu/35f1fcbecdcabcbc372a87693ec9b79a)
 
 
 ### 顺序表示（循环队列）
@@ -116,4 +116,4 @@ Status Dequeue(SqQueue &q, ElemType &e) {
 同上，因为采用了少用一块空间的方法来区分队列的状态，因此`q.front=q.rear`即为队列满的标志。
 
 ### C语言实现
-[Gist](https://gist.github.com/yunwu528491/a7ed982197d6af828a9d037b7c9d597f)
+[Gist](https://gist.github.com/yunwuu/a7ed982197d6af828a9d037b7c9d597f)
